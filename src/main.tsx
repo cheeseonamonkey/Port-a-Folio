@@ -12,16 +12,14 @@ createRoot(document.getElementById('root') as HTMLElement).render(
         <Route
           path="/about"
           element={
-            <>
-              <div className="text-center">
-                <h1 className="text-xl">About</h1>
-                <div>
-                  <Link to="/" className="text-purple-400 underline">
-                    Home
-                  </Link>
-                </div>
+            <div className="text-center mt-10">
+              <h1 className="text-xl">About</h1>
+              <div>
+                <Link to="/" className="text-purple-400 underline">
+                  Home
+                </Link>
               </div>
-            </>
+            </div>
           }
         />
       </Routes>
